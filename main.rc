@@ -1,0 +1,43 @@
+#define MANIFEST 24
+#define UA 1
+#define IDI_MAINICON 129
+#define TESTA 10001
+#define TESTCLASS 10002
+#define IDR_VERSION1 1
+
+UA MANIFEST "res/uac.manifest"
+
+IDI_MAINICON ICON DISCARDABLE "res/icon.ico"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  TESTA "WinApi演示\0"
+  TESTCLASS "appclass\0"
+END
+
+IDR_VERSION1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 0,0,0,0
+FILEOS 0x00000004
+FILETYPE 0x00000001
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"
+    BEGIN
+      VALUE "ProductVersion", "1.0.0.0\0"
+      VALUE "CompanyName", "沐心\0"
+      VALUE "FileDescription", "沐心测试程序\0"
+      VALUE "InternalName", "测试\0"
+      VALUE "LegalCopyright", "Copyright By 沐心 All rights Reserved.\0"
+      VALUE "OriginalFilename", "main.exe\0"
+      VALUE "ProductName", "沐心测试程序\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 0x04B0
+  END
+END
+
