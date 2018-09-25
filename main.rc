@@ -12,8 +12,8 @@ IDI_MAINICON ICON DISCARDABLE "res/icon.ico"
 
 STRINGTABLE DISCARDABLE
 BEGIN
-  TESTA "WinApi演示\0"
-  TESTCLASS "appclass\0"
+  TESTA "WinApi婕旂ず"
+  TESTCLASS "appclass"
 END
 
 IDR_VERSION1 VERSIONINFO
@@ -26,13 +26,13 @@ BEGIN
   BEGIN
     BLOCK "080404B0"
     BEGIN
-      VALUE "ProductVersion", "1.0.0.0\0"
-      VALUE "CompanyName", "沐心\0"
-      VALUE "FileDescription", "沐心测试程序\0"
-      VALUE "InternalName", "测试\0"
-      VALUE "LegalCopyright", "Copyright By 沐心 All rights Reserved.\0"
-      VALUE "OriginalFilename", "main.exe\0"
-      VALUE "ProductName", "沐心测试程序\0"
+      VALUE "ProductVersion", "1.0.0.0"
+      VALUE "CompanyName", "娌愬績"
+      VALUE "FileDescription", "娌愬績娴嬭瘯绋嬪簭"
+      VALUE "InternalName", "娴嬭瘯"
+      VALUE "LegalCopyright", "Copyright By 娌愬績 All rights Reserved."
+      VALUE "OriginalFilename", "main.exe"
+      VALUE "ProductName", "娌愬績娴嬭瘯绋嬪簭"
     END
   END
   BLOCK "VarFileInfo"
