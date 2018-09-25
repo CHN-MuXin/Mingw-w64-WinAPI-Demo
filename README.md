@@ -13,4 +13,4 @@ Mingw-w64  For  x86_64-8.1.0-posix-sjlj-rt_v6-rev0
 	make clean [bit=64|32]
 ```
 
-### 欢迎大家加入 C/C++编程交流 [QQ群：12041462](//shang.qq.com/wpa/qunwpa?idkey=35e2aa5eaef3fa3df90c3f6887fd1624e0b7d7522a35b041894c478948ab6b0b "QQ群：12041462")
+### 欢迎大家加入 C/C++编程交流 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=35e2aa5eaef3fa3df90c3f6887fd1624e0b7d7522a35b041894c478948ab6b0b">QQ群：12041462</a>
