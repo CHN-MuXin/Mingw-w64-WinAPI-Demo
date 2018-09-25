@@ -4,7 +4,7 @@ Mingw-w64 写的 WinAPI Demo
 Mingw-w64  For  x86_64-8.1.0-posix-sjlj-rt_v6-rev0
 # 编译语句
 ```cmd
-	::默认 bint=64
+	::默认 bin=64
 	
 	::执行编译
 	make [bit=64|32]
