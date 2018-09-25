@@ -15,10 +15,3 @@ Mingw-w64  For  x86_64-8.1.0-posix-sjlj-rt_v6-rev0
 ```
 
 ### 欢迎大家加入 C/C++编程交流 [QQ群：12041462](//shang.qq.com/wpa/qunwpa?idkey=35e2aa5eaef3fa3df90c3f6887fd1624e0b7d7522a35b041894c478948ab6b0b "QQ群：12041462")
-
-
-
-<script>
-var aTagArr = [].slice.apply(document.getElementsByTagName("a"));aTagArr.forEach(function (e, i) {e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;});
-</script>
-
