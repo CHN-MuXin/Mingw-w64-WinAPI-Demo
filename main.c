@@ -1,6 +1,4 @@
-#include <windows.h>
 #include "main.h"
-
 
 LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
 ATOM MyRegisterClass(HINSTANCE hInstance);
@@ -19,8 +17,8 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
 {
 	UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
-	LoadStringW(hInstance, APPTITLE, szTitle, MAX_LOADSTRING);
-	LoadStringW(hInstance, TESTCLASS, szWindowClass, MAX_LOADSTRING);
+	LoadStringW(hInstance, IDS_WindowTitle, szTitle, MAX_LOADSTRING);
+	LoadStringW(hInstance, IDS_WindowClass, szWindowClass, MAX_LOADSTRING);
 	if(!MyRegisterClass(hInstance))
 		 MessageBoxW (NULL, L"注册窗口类名失败！", L"类名注册失败", MB_ICONERROR);
 	// 执行应用程序初始化:
@@ -52,7 +50,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.cbClsExtra = 0;
     wcex.cbWndExtra = 0;
     wcex.hInstance = hInstance;
-    wcex.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(MYAPPICON));
+    wcex.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_MAINICON));
     wcex.hCursor = LoadCursor (NULL, IDC_ARROW);
     wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     wcex.lpszMenuName = NULL;
